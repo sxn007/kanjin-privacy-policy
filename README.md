@@ -1,0 +1,1 @@
+# kanjin-privacy-policy
