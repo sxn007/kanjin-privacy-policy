@@ -2,160 +2,408 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+ 
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+ 
+  <meta
+    name="description"
+    content="Privacy Policy for the KanJin Japanese language learning application."
+  >
+ 
   <title>KanJin Privacy Policy</title>
-
+ 
   <style>
+    :root {
+      color-scheme: dark;
+ 
+      --background: #0f172a;
+      --panel: #162033;
+      --text: #f8fafc;
+      --muted: #cbd5e1;
+      --soft: #94a3b8;
+      --accent: #79b7ff;
+      --border: rgba(255, 255, 255, 0.1);
+    }
+ 
+    * {
+      box-sizing: border-box;
+    }
+ 
     body {
       margin: 0;
       padding: 32px;
-
-      background: #0f172a;
-      color: #f8fafc;
-
+ 
+      background: var(--background);
+      color: var(--text);
+ 
       font-family:
         Inter,
         system-ui,
         -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
         sans-serif;
-
+ 
       line-height: 1.7;
     }
-
+ 
     .container {
+      width: 100%;
       max-width: 800px;
+ 
       margin: 0 auto;
+      padding: 32px;
+ 
+      border: 1px solid var(--border);
+      border-radius: 24px;
+ 
+      background: rgba(255, 255, 255, 0.025);
     }
-
+ 
     h1 {
-      margin-top: 0;
-      font-size: 36px;
+      margin: 0;
+ 
+      font-size: clamp(30px, 6vw, 40px);
+      line-height: 1.2;
     }
-
+ 
     h2 {
       margin-top: 32px;
+      margin-bottom: 10px;
+ 
       font-size: 20px;
+      line-height: 1.3;
     }
-
+ 
     p,
     li {
-      color: #cbd5e1;
+      color: var(--muted);
     }
-
+ 
+    p {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+ 
+    ul {
+      padding-left: 24px;
+    }
+ 
+    li + li {
+      margin-top: 6px;
+    }
+ 
     a {
-      color: #79b7ff;
+      color: var(--accent);
     }
-
+ 
+    .effective-date {
+      margin-top: 12px;
+ 
+      color: var(--soft);
+      font-size: 14px;
+    }
+ 
+    .notice {
+      margin-top: 16px;
+      padding: 14px 16px;
+ 
+      border: 1px solid rgba(121, 183, 255, 0.2);
+      border-radius: 14px;
+ 
+      background: rgba(121, 183, 255, 0.07);
+    }
+ 
+    .notice p {
+      margin: 0;
+    }
+ 
+    .contact {
+      margin-top: 12px;
+      padding: 14px 16px;
+ 
+      border: 1px solid var(--border);
+      border-radius: 14px;
+ 
+      background: var(--panel);
+    }
+ 
+    .contact p {
+      margin: 0;
+    }
+ 
     .footer {
       margin-top: 48px;
-      color: #94a3b8;
+      padding-top: 20px;
+ 
+      border-top: 1px solid var(--border);
+ 
+      color: var(--soft);
       font-size: 14px;
+      text-align: center;
+    }
+ 
+    @media (max-width: 600px) {
+      body {
+        padding: 16px;
+      }
+ 
+      .container {
+        padding: 22px 18px;
+ 
+        border-radius: 20px;
+      }
+ 
+      h2 {
+        margin-top: 28px;
+      }
     }
   </style>
 </head>
+ 
 <body>
-  <div class="container">
+  <main class="container">
     <h1>Privacy Policy for KanJin</h1>
-
-    <p>
-      Effective Date: August 2026
+ 
+    <p class="effective-date">
+      Effective Date: October 2026
     </p>
-
+ 
     <p>
       KanJin is a Japanese language learning application
       developed by Popcorn Innovation.
     </p>
-
-    <h2>Information Collection</h2>
-
+ 
     <p>
-      KanJin does not collect, store, transmit,
-      or share personal information.
+      This Privacy Policy explains how KanJin handles
+      information when users access the application,
+      save learning progress, or voluntarily submit a
+      vocabulary issue report.
     </p>
-
+ 
+    <h2>Information Collection</h2>
+ 
+    <p>
+      KanJin does not require users to create an account
+      or provide personal information to use its learning
+      features.
+    </p>
+ 
     <p>
       KanJin does not require:
     </p>
-
+ 
     <ul>
       <li>User accounts</li>
       <li>User registration</li>
       <li>Profile creation</li>
+      <li>Names or email addresses for normal app use</li>
     </ul>
-
-    <h2>Local Storage</h2>
-
+ 
+    <h2>Local Data Storage</h2>
+ 
     <p>
-      KanJin stores learning-related information
-      locally on the user's device, including:
+      KanJin stores learning-related information locally
+      on the user's device, including:
     </p>
-
+ 
     <ul>
       <li>Learning progress</li>
-      <li>Mastered words</li>
-      <li>Streak information</li>
+      <li>Recognized or mastered word identifiers</li>
+      <li>Streak and accuracy information</li>
+      <li>Current word and card position</li>
       <li>Sound preferences</li>
     </ul>
-
+ 
     <p>
-      This information remains on the device and is
-      not transmitted to external servers.
+      This locally stored learning information remains on
+      the user's device and is not automatically transmitted
+      to KanJin or Popcorn Innovation.
     </p>
-
+ 
+    <p>
+      Users can remove locally stored learning information
+      by using the Reset Progress feature or by clearing the
+      application's storage from the device settings.
+    </p>
+ 
+    <h2>Optional Word Reports</h2>
+ 
+    <p>
+      KanJin includes an optional feature that allows users
+      to report possible issues with vocabulary content,
+      meanings, kanji, readings, romaji, word matching, or
+      JLPT level information.
+    </p>
+ 
+    <p>
+      When a user chooses to continue with a report, KanJin
+      opens a Google Form containing information relevant to
+      the reported vocabulary item.
+    </p>
+ 
+    <p>
+      The report may include:
+    </p>
+ 
+    <ul>
+      <li>The selected issue category</li>
+      <li>Optional details entered by the user</li>
+      <li>The KanJin word identifier</li>
+      <li>The English meaning</li>
+      <li>The displayed kanji</li>
+      <li>The Japanese reading</li>
+      <li>The romaji reading, when available</li>
+      <li>The associated JLPT level</li>
+      <li>The correct or incorrect reveal result</li>
+      <li>The KanJin app version</li>
+    </ul>
+ 
+    <p>
+      Users can review and edit the information in the
+      Google Form before submitting the report. Opening the
+      form does not automatically submit a report.
+    </p>
+ 
+    <p>
+      KanJin does not require a name or email address when
+      submitting a vocabulary issue report. Users should not
+      include personal, confidential, or sensitive information
+      in the optional details field.
+    </p>
+ 
+    <p>
+      Submitted reports are used only to review, correct,
+      maintain, and improve KanJin's learning content and
+      application experience.
+    </p>
+ 
+    <div class="notice">
+      <p>
+        Google Forms is an external service operated by
+        Google. Information submitted through the report form
+        is processed using Google's services and is subject to
+        Google's applicable privacy practices.
+      </p>
+    </div>
+ 
     <h2>Data Sharing</h2>
-
+ 
     <p>
-      KanJin does not sell, transfer,
-      or share user information with third parties.
+      KanJin does not sell user information.
     </p>
-
+ 
+    <p>
+      Local learning progress is not shared with third
+      parties. Information is sent externally only when a
+      user voluntarily chooses to submit a vocabulary issue
+      report through Google Forms.
+    </p>
+ 
     <h2>Advertising</h2>
-
+ 
     <p>
-      KanJin does not display advertisements.
+      KanJin does not display advertisements and does not use
+      advertising services to track users.
     </p>
-
+ 
     <h2>Analytics</h2>
-
+ 
     <p>
-      KanJin does not use analytics services
-      to collect personal information.
+      KanJin does not currently use third-party analytics
+      services to collect personal information or track
+      learning activity.
     </p>
-
+ 
+    <h2>Internet Access</h2>
+ 
+    <p>
+      KanJin's primary learning features are designed to work
+      without an internet connection.
+    </p>
+ 
+    <p>
+      An internet connection is required when a user chooses
+      to open or submit the optional Google Forms vocabulary
+      report.
+    </p>
+ 
     <h2>Children's Privacy</h2>
-
+ 
     <p>
-      KanJin does not knowingly collect personal
-      information from children.
+      KanJin does not knowingly collect personal information
+      from children.
     </p>
-
-    <h2>Security</h2>
-
+ 
     <p>
-      All learning information is stored locally on
-      the user's device.
+      Users should not enter personal or sensitive information
+      into the optional vocabulary-report details field.
     </p>
-
-    <h2>Changes To This Policy</h2>
-
+ 
+    <h2>Data Security</h2>
+ 
     <p>
-      This Privacy Policy may be updated from time to time.
-      Updates will be reflected on this page.
+      Local learning information is stored on the user's
+      device. Users are responsible for maintaining the
+      security of their device.
     </p>
-
+ 
+    <p>
+      Vocabulary reports are transmitted to Google Forms
+      using an HTTPS connection. No method of electronic
+      transmission or storage can be guaranteed to be
+      completely secure.
+    </p>
+ 
+    <h2>Data Retention</h2>
+ 
+    <p>
+      Local learning information remains on the device until
+      it is reset by the user, cleared through the device
+      settings, or removed when the application is
+      uninstalled.
+    </p>
+ 
+    <p>
+      Submitted vocabulary reports may be retained for as
+      long as reasonably necessary to investigate the
+      reported issue, improve KanJin, maintain correction
+      records, and prevent duplicate work.
+    </p>
+ 
+    <h2>Changes to This Privacy Policy</h2>
+ 
+    <p>
+      This Privacy Policy may be updated when KanJin's
+      functionality or information-handling practices change.
+      Updates will be published on this page with a revised
+      effective date.
+    </p>
+ 
     <h2>Contact</h2>
-
+ 
     <p>
-      Popcorn Innovation
-      <br>
-      Email:
-      popcorninnovation.apps@gmail.com
+      Questions about this Privacy Policy or KanJin's
+      information-handling practices can be sent to:
     </p>
-
+ 
+    <div class="contact">
+      <p>
+        <strong>Popcorn Innovation</strong>
+        <br>
+        Email:
+        <a href="mailto:popcorninnovation.apps@gmail.com">
+          popcorninnovation.apps@gmail.com
+        </a>
+      </p>
+    </div>
+ 
     <div class="footer">
       © 2026 Popcorn Innovation
     </div>
-  </div>
+  </main>
 </body>
 </html>
